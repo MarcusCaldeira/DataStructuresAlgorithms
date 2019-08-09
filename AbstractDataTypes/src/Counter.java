@@ -1,6 +1,6 @@
 public class Counter {
-    String name;
-    int value;
+    private String name;
+    private int value;
 
     //Constructor
     public Counter(String name) {
