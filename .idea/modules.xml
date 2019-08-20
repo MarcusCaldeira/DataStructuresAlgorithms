@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DataStructuresAlgorithms.iml" filepath="$PROJECT_DIR$/.idea/DataStructuresAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbstractDataTypes/AbstractDataTypes.iml" filepath="$PROJECT_DIR$/AbstractDataTypes/AbstractDataTypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackDataStructure/StackDataStructure.iml" filepath="$PROJECT_DIR$/StackDataStructure/StackDataStructure.iml" />
     </modules>
   </component>
