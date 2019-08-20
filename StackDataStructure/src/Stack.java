@@ -12,6 +12,9 @@ public class Stack {
         this.top = -1;
     }
     public void push(long j){
+        if(isFull()){
+            System.out.println("this stack is already full");
+        }
         top++;
         stackArray[top] = j;
     }
