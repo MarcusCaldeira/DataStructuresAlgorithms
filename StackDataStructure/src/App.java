@@ -12,4 +12,9 @@ public class App {
             System.out.println(value);
         }
     }
+
+    public static String ReverseString(String str){
+        return str;
+
+    }
 }

@@ -1,17 +1,17 @@
 public class Stack {
 
     private int maxSize;
-    private long [] stackArray;
+    private char[] stackArray;
     //will represent the last item placed on top of the stack.
     private int top;
 
 
     public Stack(int Size) {
         this.maxSize = Size;
-        this.stackArray = new long[maxSize];
+        this.stackArray = new char[maxSize];
         this.top = -1;
     }
-    public void push(long j){
+    public void push(char j){
         if(isFull()){
             System.out.println("this stack is already full");
         }else{
@@ -19,17 +19,17 @@ public class Stack {
             stackArray[top] = j;
         }
     }
-    public long pop(){
+    public char pop(){
         if(isEmpty()){
             System.out.println("the stack is already empty");
-            return -1;
+            return 0;
         }else {
             int oldTop = top;
             top--;
             return stackArray[oldTop];
         }
     }
-    public long peak(){
+    public char peak(){
         return stackArray[top];
     }
     public boolean isEmpty(){
